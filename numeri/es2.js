@@ -24,12 +24,14 @@ function es2_2() {
 function es2_3(valore) {
   // 3. Riceve un valore e restituisce true se è NaN, false altrimenti
   // TODO: scrivi qui la tua soluzione
-  if (Nan) {
+  return isNaN(valore);
+
+  /*if (isNaN(valore)) {
     return true;
   }
   else {
-    false;
-  }
+    return false;
+  } */
 }
 
 // --- NON MODIFICARE SOTTO ---
