@@ -11,11 +11,15 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es21(secondi) {
-  var ora = Math.floor(secondi / 3600);
-  var minuti = Math.floor(secondi - 3600 * ora / 60);
-  var secondi = (secondi - 3600 * ora - minuti * 60);
+  var ore = Math.floor(secondi / 3600);
+  var minuti = Math.floor((secondi % 3600) / 60);
+  var secondi = secondi % 60;
   // TODO: scrivi qui la tua soluzione
-  return{ora, minuti, secondi}
+  return{
+    ore: ore, 
+    minuti: minuti, 
+    secondi: secondi
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---
