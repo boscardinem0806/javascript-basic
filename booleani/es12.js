@@ -13,6 +13,21 @@
 
 function es12(ruolo, isLogged) {
   // TODO: scrivi qui la tua soluzione
+
+  if (ruolo === "admin") {
+    return true;
+  }
+  if (ruolo === "editor") {
+    return true;
+  }
+  if (ruolo === "viewer" && isLogged) {
+    return true;
+  }
+  
+  return false;
+
+  /*return ruolo === "admin" || ruolo === "editor" || (ruolo === "viewer" && isLogged) ? true : false;*/
+
 }
 
 // --- NON MODIFICARE SOTTO ---

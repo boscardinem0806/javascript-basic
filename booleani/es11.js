@@ -12,7 +12,9 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es11(persona) {
+  var eta = 0;
   // TODO: scrivi qui la tua soluzione
+  return persona !== "" && eta >= 18 ? true : false;
 }
 
 // --- NON MODIFICARE SOTTO ---
