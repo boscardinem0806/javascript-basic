@@ -11,11 +11,13 @@
 function es13_1(s) {
   // 1. Trasforma la stringa ricevuta in minuscolo
   // TODO: scrivi qui la tua soluzione
+  return s.toLowerCase();
 }
 
 function es13_2(s) {
   // 2. Converti la frase ricevuta tutta in minuscolo
   // TODO: scrivi qui la tua soluzione
+  return s.toLowerCase();
 }
 
 function es13_3(a, b) {
