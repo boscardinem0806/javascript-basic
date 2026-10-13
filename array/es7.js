@@ -11,16 +11,25 @@
 function es7_1(a, b) {
   // 1. Unisci gli array a e b in un unico array
   // TODO: scrivi qui la tua soluzione
+  console.log(a)
+  console.log(b)
+  const res = a.concat(b);
+  console.log(a)
+  console.log(b)
+  console.log(res)
+  return res;
 }
 
 function es7_2(a, b, c) {
   // 2. Unisci gli array a, b e c
   // TODO: scrivi qui la tua soluzione
+  return a.concat(b, c)
 }
 
 function es7_3(arr, elemento) {
   // 3. Aggiungi elemento alla fine di arr usando concat (non push)
   // TODO: scrivi qui la tua soluzione
+  return arr.concat(elemento);
 }
 
 // --- NON MODIFICARE SOTTO ---
