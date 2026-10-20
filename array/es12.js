@@ -8,19 +8,26 @@
 
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
+function moltiplicatoperdue(x){
+  return x * 2;
+}
 function es12_1(arr) {
   // 1. Restituisci un nuovo array con ogni numero moltiplicato per 2
   // TODO: scrivi qui la tua soluzione
+  return arr.map(moltiplicatoperdue);
 }
+
 
 function es12_2(arr) {
   // 2. Restituisci un nuovo array con ogni stringa in maiuscolo
   // TODO: scrivi qui la tua soluzione
+  return arr.map(x => x.toUpperCase());
 }
 
 function es12_3(arr) {
   // 3. Restituisci un nuovo array con la lunghezza di ogni stringa
   // TODO: scrivi qui la tua soluzione
+  return arr.map(a => a.length)
 }
 
 // --- NON MODIFICARE SOTTO ---

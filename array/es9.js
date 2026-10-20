@@ -25,6 +25,8 @@ function es9_2(arr, elemento) {
 function es9_3(arr, indice) {
   // 3. Rimuovi l'elemento all'indice specificato e restituisci l'array
   // TODO: scrivi qui la tua soluzione
+  arr.splice(indice, 1);
+  return arr;
 }
 
 // --- NON MODIFICARE SOTTO ---
