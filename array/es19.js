@@ -13,6 +13,9 @@
 
 function es19(voti) {
   // TODO: scrivi qui la tua soluzione
+  const somma = voti.reduce((accumulatore,Currentvalore) => accumulatore + Currentvalore, 0);
+  const media = somma / voti.length;
+  return { somma, media };
 }
 
 // --- NON MODIFICARE SOTTO ---
